@@ -13,6 +13,7 @@ var burger = {
     },
     updateOne: function(objColVals, condition, cb) {
         orm.updateOne("burgers", objColVals, condition, function(res) {
+            console.log("I've made it to the burger.js Model")
             cb(res);
         });
     }

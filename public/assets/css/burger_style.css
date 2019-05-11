@@ -1,0 +1,37 @@
+img {
+    width: 350px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+h1,
+p {
+    color: #785bd8;
+}
+
+
+#one {
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+
+}
+
+#two {
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+}
+
+#three {
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+}
+ 
+html,
+body {
+    height: 100%;
+    background-color: #f9af4d;
+}
+.container-fluid {
+    min-height: 100%;
+    overflow: hidden;
+}

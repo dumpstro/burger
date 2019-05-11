@@ -25,7 +25,7 @@ $(document).ready(function() {
         console.log("Devoured has been clicked")
         
         var burgerId = $(this).data("id");
-        console.log("Button Id updated: " + burgerId)
+        console.log("Button Id clicked: " + burgerId)
         var consumed = {
             devoured: true
         }
