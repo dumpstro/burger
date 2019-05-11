@@ -5,8 +5,13 @@ img {
 }
 
 h1,
+h2,
 p {
     color: #785bd8;
+}
+
+h2 {
+    margin-top: 15px;
 }
 
 
@@ -30,6 +35,7 @@ html,
 body {
     height: 100%;
     background-color: #f9af4d;
+    font-weight: bold;
 }
 .container-fluid {
     min-height: 100%;
